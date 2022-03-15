@@ -3,16 +3,14 @@
 /**
  * print_alphabet - print alphabet in lowercase
  *
- * Return: Always 0.
- */
+ **/
 void print_alphabet(void)
 {
-    char c; = 'a'
-    int i;
+char c;
 
-    for (i = 0; i < 26; i++)
-    {
-        _putchar(c+i);
-    }
-    _putchar(10)
+for (i = 'a'; i < 'z'; c++)
+{
+_putchar(c+i);
+}
+_putchar(10)
 }
